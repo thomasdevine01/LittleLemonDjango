@@ -4,8 +4,8 @@
 ## Table of Contents
 
 - [Getting Started](#getting-started)
- - [Prerequisites](#prerequisites)
- - [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -16,9 +16,9 @@ These instructions will help you set up and run the Django app on your local mac
 
 ### Prerequisites
 
-- Python 3.x (Check by running `python --version`)
-- pip (Python package manager, typically installed with Python)
-- Django (Check by running `python -m django --version`)
+- Python 3.x
+- pip
+- Django 
 
 ### Installation
 
@@ -29,8 +29,8 @@ These instructions will help you set up and run the Django app on your local mac
    cd your-django-app`` 
 
 2.  Create and activate a virtual environment (optional but recommended):
- `python -m venv venv
-    source venv/bin/activate   # On Windows: venv\Scripts\activate` 
+   `python -m venv venv`
+   `source venv/bin/activate` 
     
 3.  Install project dependencies:
  `pip install -r requirements.txt` 
@@ -41,19 +41,20 @@ These instructions will help you set up and run the Django app on your local mac
 5.  Start the development server:
   `python manage.py runserver` 
     
-    The app will be available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your web browser.
+The app will be available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your web browser.
     
 
 ## Usage
 
-This is a simple Django. I created this specifically for the backend. It has a SQLite DB, admin page, and a working template system.
+This is a simple Django project. I created this specifically for the backend. The front-end design was prebuilt. It has a SQLite DB, admin page, and a working template system.
 
 ## Contributing
 
 This is an open source project. I am also open to Pull Requests!
+
 ## License
 
-```sql
+```
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
