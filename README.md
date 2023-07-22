@@ -23,10 +23,9 @@ These instructions will help you set up and run the Django app on your local mac
 ### Installation
 
 1. Clone the repository to your local machine:
+   
+   ```git clone https://github.com/thomasdevine01/LittleLemonDjango.git```
 
-   ```bash
-   git clone https://github.com/your-username/your-django-app.git
-   cd your-django-app`` 
 
 2.  Create and activate a virtual environment (optional but recommended):
    `python -m venv venv`
